@@ -1,2 +1,1 @@
-# file_organizer
-Сортировщик файлов по категориям
+# File Organizer
