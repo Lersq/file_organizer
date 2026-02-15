@@ -36,7 +36,7 @@ class App(ctk.CTk):
         if os.path.isfile("./icon.ico"):
             self.iconbitmap("./icon.ico")
         else:
-            self.log_box.insert("end", "Не удалось установить иконку для программы, будет использована стандартная", "error")
+            self.log_box.insert("end", "Не удалось установить иконку для программы, будет использована стандартная\n\n", "error")
         self.log_box.configure(state="disabled")
 
         self.target_dir = ""
